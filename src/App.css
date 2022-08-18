@@ -1,51 +1,8 @@
-.Blog_nav{
-    display: flex;
-    justify-content: center;
-    background: #000000;
-    color: white;
-    height: 36px;
-}
-
-.Blog_name{
-    display: flex;
-    margin: auto;
-    height: 200px;
-    width: 1000px;
-    align-items : center;
-    justify-content: right;
-    padding-right: 50px;
-    color: #000000
-}
-
-.blog{
-    display: flex;
-    margin: auto;
-    height: 1000px;
-    width: 1000px;
-}
-
-.user{
-    display: inline-block;
-    height: 160px;
-    width: 160px;
-}
-
-img{
-    display: flex;
-    margin: auto;
-    height: 160px;
-    width: 160px;
-}
-
-h4{
-
-    justify-content: left;
-    padding-bottom: 50px;
-}
-
-.list{
-    width: 832px;
-    justify-content: space-between;
-    padding-left: 40px;
+div {
+    box-sizing : border-box
+  }
+  .list {
+    text-align : left;
+    padding-left : 20px;
     border-bottom : 1px solid grey;
-}
+  }
