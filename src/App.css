@@ -1,8 +1,149 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.blog_bar{
+  height: 34px;
+  background: #000000;
+  position: sticky;
+  top: 0;
+}
+
 div {
     box-sizing : border-box
   }
+
+  
   .list {
     text-align : left;
-    padding-left : 20px;
-    border-bottom : 1px solid grey;
+    border-bottom : 1px solid #E8E8E8;
+    display: flex;
+    height: 36px;
+    align-items : center;
+    font-size: 14px;
+
   }
+  .list_name{
+    color: #666666;
+    flex-grow: 9;
+    /* background: teal; */
+  }
+  .list_view{
+    /* background: tomato; */
+    color: #BEBEBE;
+    flex-grow: 1;
+    display : flex;
+    justify-content: flex-end;
+  }
+  /* .list_date{
+    color: #BEBEBE;
+    flex-grow: 1;
+    display : flex;
+    justify-content: flex-end;
+  } */
+
+  .blog{
+    width: 970px;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .blog_name{
+    height: 370px;
+    display : flex; 
+    align-items : center;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+
+  .blog_user{
+    width: 200px;
+    height: 100%;
+    float: left;
+    background: white;
+  }
+  
+  .blog_p{
+    width: 160px;
+    height: 160px;
+  }
+
+  .blog_list{
+    height: 242px;
+
+  }
+  .blog_text{
+    border-bottom : 1px solid #B3B3B3;
+    color: #C3C3C3;
+    display : flex;
+    font-size: 14px;
+  }
+
+  .blog_text_1{
+    flex-grow: 6;
+
+  }
+
+  .blog_text_2{
+    flex-grow: 1;
+    display : flex;
+    justify-content: flex-end;
+
+  }
+  .blog_text_3{
+    flex-grow: 1; 
+    display : flex;
+    justify-content: flex-end;
+  }
+ 
+ 
+.blog_user_r{
+  /* background: teal; */
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+.blog_modbal{
+ /* background: thistle; */
+  width: 100%;
+  height: 100%;
+  padding-left: 200px;
+}
+
+input{
+  width: 160px;
+}
+
+textarea{
+  width: 160px;
+  height: 160px;
+}
+
+
+button{
+  width: 60px;
+}
+
+.blog_main_listname{
+  height: 278px;
+  color: #000000;
+  border-bottom : 1px solid #E8E8E8;
+  display : flex; 
+  align-items : center;
+  font-size: 42px;
+  font-weight: large;
+}
+
+.blog_main_text{
+  margin: 100px;
+}
+
+
+.blog_like{
+  margin-top: 60px;
+  font-size: 20px;
+}
